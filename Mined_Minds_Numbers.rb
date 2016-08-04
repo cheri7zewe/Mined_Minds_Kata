@@ -1,7 +1,7 @@
-def one()
-	1
+def mined_minds(number)
+	number
 end
 
-def mined_minds(number)
+def Mined(number)
 	number
 end

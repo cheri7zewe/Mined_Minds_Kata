@@ -10,4 +10,8 @@ class Test_Mined_Minds_Kata <Minitest::Test
 		assert_equal(2,mined_minds(2))
 	end
 
+	def test_3_returns_Mined
+		assert_equal(3,Mined(3))
+	end
+
 end
