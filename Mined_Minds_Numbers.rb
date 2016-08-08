@@ -1,16 +1,10 @@
 def mined_minds(number)
-	number
-end
-
-
-def Mined(number)
-	if number % 3 == 0
-		puts Mined
+	if number % 3 == 0 && number % 5 == 0
+		"Mined_Minds"
+	elsif number % 3 == 0
+		"Mined"
+	elsif number % 5 == 0
+		"Minds"
 	end
-end
-
-def Minds(number)
-	if number % 5 == 0
-		puts Minds
-	end
+	
 end
