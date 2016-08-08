@@ -1,7 +1,3 @@
-def create_Mined_Minds_array
-	Array.new(100)
-end
-
 def array(number)
 	if number % 3 == 0 && number % 5 == 0
 		"Mined_Minds"
@@ -12,4 +8,8 @@ def array(number)
 	else
 		number
 	end
+end
+
+def create_Mined_Minds_array
+	Array.new(100)
 end
