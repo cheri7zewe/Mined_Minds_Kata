@@ -5,6 +5,7 @@ def mined_minds(number)
 		"Mined"
 	elsif number % 5 == 0
 		"Minds"
+	else
+		number
 	end
-	
 end
